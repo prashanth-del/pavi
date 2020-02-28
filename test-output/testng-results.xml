@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="88177" started-at="2020-02-22T12:11:00 IST" finished-at="2020-02-22T12:12:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="88177" started-at="2020-02-22T12:11:00 IST" finished-at="2020-02-22T12:12:28 IST">
+      <class name="Academy.Homepage">
+        <test-method status="PASS" signature="basenavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@a7e666]" name="basenavigation" duration-ms="46630" started-at="2020-02-22T12:11:00 IST" data-provider="getData" finished-at="2020-02-22T12:11:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[non-restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basenavigation -->
+        <test-method status="PASS" signature="basenavigation(java.lang.String, java.lang.String)[pri:0, instance:Academy.Homepage@a7e666]" name="basenavigation" duration-ms="41480" started-at="2020-02-22T12:11:46 IST" data-provider="getData" finished-at="2020-02-22T12:12:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basenavigation -->
+      </class> <!-- Academy.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
